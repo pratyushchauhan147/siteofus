@@ -1,0 +1,211 @@
+.modal {
+    z-index: 6;
+    position: fixed;  
+top: 0;
+width: 100%; 
+height: 500px; 
+
+
+
+
+
+}
+.compostimg{
+    width: 90%;
+
+
+}
+.w-70{
+    width: 70%;
+    object-fit: contain;
+    margin: 10px;
+}
+.w-50{
+    width: 50%;
+    object-fit: contain;
+    margin: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.w-fit{
+    width: fit-content;
+
+}
+
+
+.small-font{
+    font-size: smaller;
+    justify-self: center;
+    align-items: center;
+
+}
+.whiter{
+    height: fit-content;
+    width:90%;
+    flex-direction: column;
+
+}
+.w-350{
+    width: 500px;
+}
+.h-m{
+    height: 500px;
+}
+.modalinner{
+    position: absolute; 
+padding: 1rem; 
+color: #ffffff; 
+background-color: aquamarine;
+border-radius: 30px;
+background: radial-gradient(circle at 49% 2%, rgba(112, 149, 147, 0.425) 1%, rgba(0, 0, 0, 0.2) 100%);
+width: 70%;
+height: 100%;
+
+display: flex;
+
+backdrop-filter: blur(20px);
+margin-top: 40px;
+
+}
+.postimage{
+    object-fit: contain; 
+    margin-top: 0.5rem; 
+    max-height: 250px;
+    
+    
+    
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.h-100{
+    height: 100%;
+}
+
+.commentArea{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (min-width: 320px) and (max-width: 800px){
+    .modal {
+        z-index: 5;
+        position: fixed;  
+    top: 0;
+    width: 100%; 
+    height: 500px; 
+    
+    
+    
+    
+    
+    }
+    .compostimg{
+        width: 90%;
+    
+    
+    }
+    .w-70{
+        width: 70%;
+        object-fit: contain;
+        margin: 10px;
+    }
+    .w-50{
+        width: 50%;
+        object-fit: contain;
+        margin: 10px;
+    }
+    .m-10{
+        margin: 10px;
+    }
+    .w-fit{
+        width: fit-content;
+    
+    }
+    
+    
+    .small-font{
+        font-size: smaller;
+        justify-self: center;
+        align-items: center;
+    
+    }
+    .whiter{
+        height: fit-content;
+        width:90%;
+        flex-direction: column;
+    
+    }
+    .w-350{
+        width: 300px;
+    }
+    .h-m{
+        height: 500px;
+    }
+    .modalinner{
+        position: absolute; 
+    padding: 1rem; 
+    color: #ffffff; 
+    background-color: aquamarine;
+    border-radius: 30px;
+    background: radial-gradient(circle at 49% 2%, rgba(112, 149, 147, 0.425) 1%, rgba(0, 0, 0, 0.2) 100%);
+    width: 90%;
+    height: 80%;
+    
+    display: flex;
+    
+    backdrop-filter: blur(20px);
+    margin-top: 40px;
+    margin: 20px;
+    
+    }
+    .postimage{
+        object-fit: contain; 
+        margin-top: 0.5rem; 
+display: none;
+        max-height: 150px;
+        
+        
+        
+    }
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .h-100{
+        height: 100%;
+    }
+    .smfl-col{
+        flex-direction: column;
+        width: 100%;
+    }
+    .smuserinfoarea{
+        width: 100%;
+    }
+    .commentArea{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .w-100{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .aa{
+        width: 80%;
+        object-fit: contain;
+    }
+}
