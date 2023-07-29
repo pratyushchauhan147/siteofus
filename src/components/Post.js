@@ -86,8 +86,8 @@ export const Post = ({post,id,cont}) => {
             
                 <img className='profilepiconpost' src={post.userImg} alt="" />
                         <div className="user-info-area">
-                        <h4 className='usertag' >@{post.tag}</h4>
-                        <p className='color-gray'>{post.username}</p>
+                        <h4 className='usertag' >@Anomynous</h4>
+                        <p className='color-gray'>A User</p>
                         <p><Moment fromNow>{post?.timestamp?.toDate()}</Moment ></p>
                         <hr />
                         </div>
