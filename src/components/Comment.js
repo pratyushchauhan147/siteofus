@@ -9,8 +9,8 @@ function Comment({ comment }) {
             
                 <img className='profilepiconpost ' src={comment?.userImg} alt="" />
                         <div className="user-info-area">
-                        <h4 className='usertag' >@{comment?.tag}</h4>
-                        <p className='color-gray'>{comment?.username}</p>
+                        <h4 className='usertag' >@Anomynous</h4>
+                        <p className='color-gray'>A-User</p>
                         <p><Moment fromNow>{comment?.timestamp?.toDate()}</Moment ></p>
                     
                         </div>
