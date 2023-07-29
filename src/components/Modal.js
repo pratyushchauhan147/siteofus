@@ -68,7 +68,7 @@ const Modal = ({ appContext, setcont, setAppContext }) => {
 
                 <div className="user-info-area smuserinfoarea small-font ">
                   <div className="usertag  small-font">
-                    <h1>{post?.username}</h1>
+                    <h1>Anomynous</h1>
                     <h2 className="text-gray-500">
                       <Moment fromNow>{post?.timestamp?.toDate()}</Moment>
                     </h2>
