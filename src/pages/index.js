@@ -24,9 +24,7 @@ export default function Home() {
 
   return (
   <div class="Index">
-    <div className="color c1">h</div>
-    <div className="color c2">h</div>
-    <div className="color c3">h</div>
+    
     <LeftSideBar></LeftSideBar>
 
     
